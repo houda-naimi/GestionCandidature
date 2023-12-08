@@ -115,8 +115,8 @@ main {
 	   </style>
 </head>
 <body>
-	<div class="d-flex flex-column flex-shrink-0 p-3 bg-light sidebar" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none ">
+	<div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none sidebar">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
       <span class="fs-4">Sidebar</span>
     </a>
@@ -169,11 +169,11 @@ main {
      <div ><a th:href="@{/logout}"> Logout</a>
 		 </div>
   </div>
-  <div class="container-xxl flex-grow-1 container-p-y">
+  <!--<div class="container-xxl flex-grow-1 container-p-y">
 	  <div layout:fragment="content">
 	  
   </div>
-  </div>
+  </div>-->
   
    
 </body>

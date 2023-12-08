@@ -169,11 +169,11 @@ main {
      <div ><a th:href="@{/logout}"> Logout</a>
 		 </div>
   </div>
-  <div class="container-xxl flex-grow-1 container-p-y">
+  <!--<div class="container-xxl flex-grow-1 container-p-y">
 	  <div layout:fragment="content">
 	  
   </div>
-  </div>
+  </div>-->
   
    
 </body>
