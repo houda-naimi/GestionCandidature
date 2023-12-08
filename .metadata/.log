@@ -1,0 +1,934 @@
+!SESSION 2023-12-07 20:43:04.687 -----------------------------------------------
+eclipse.buildId=4.19.1.202308011926
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-07 20:43:06.528
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-12-07 20:43:27.222
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-07 20:43:27.222
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-07 20:43:30.221
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\MSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:32.381
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:35.809
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:35.815
+!MESSAGE Boot project ADDED: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:35.816
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:35.829
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-07 20:46:35.856
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/MSI/Desktop/Projet_JEE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1701978395855
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:35.856
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-07 20:46:35.864
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13940
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 20:46:36.095
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.eclipse.jface 2 0 2023-12-07 20:54:16.250
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-07 20:54:16.250
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:10:31.316
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:10:31.376
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:10:52.123
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-07 21:17:08.582
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-07 21:17:29.279
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:834)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1840)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5152)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-07 21:17:29.331
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1840)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5152)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-07 21:17:30.252
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:834)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4865)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-07 21:17:30.304
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4865)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 21:17:30.456
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 46, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 46, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:114)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 46, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:283)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 21:17:32.374
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 55, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 55, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:114)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 55, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:283)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:17:46.048
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:17:46.222
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:18:52.843
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 21:19:15.044
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:31:57.645
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:31:57.690
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-07 22:32:38.817
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:33:05.668
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:33:05.697
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:33:07.886
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:35:34.270
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:31.741
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:32.655
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:33.691
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:35.210
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:35.765
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:36.654
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:37.732
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:38.352
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:39.229
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:39.766
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:40.018
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:40.320
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:40.519
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:42.052
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:42.573
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:42.967
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:43.286
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:44.212
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:44.899
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-07 22:44:45.035
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/MSI/Desktop/Projet_JEE/recrutement/src/main/resources/templates/template1.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.1.0.202306291300\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:49:56.874
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:52:14.088
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:52:14.117
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:52:16.180
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 22:52:23.545
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 23:10:54.473
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 23:34:07.989
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 23:34:08.037
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 23:34:22.307
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-07 23:43:14.497
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-08 00:10:59.742
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 00:26:01.039
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 00:26:01.083
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 00:26:03.119
+!MESSAGE Classpath changed for project: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 00:26:18.139
+!MESSAGE Classpath changed for project: recrutement
+!SESSION 2023-12-08 12:20:53.022 -----------------------------------------------
+eclipse.buildId=4.19.1.202308011926
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-08 12:20:56.489
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-12-08 12:21:16.470
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-08 12:21:16.470
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-08 12:21:21.250
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/MSI/Desktop/Projet_JEE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1702034481249
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 12:21:21.251
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-08 12:21:21.276
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11980
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-08 12:21:22.484
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\MSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 12:21:22.644
+!MESSAGE Boot project ADDED: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 12:21:22.645
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 12:21:22.648
+!MESSAGE Started Boot LS process
+!SESSION 2023-12-08 13:42:28.688 -----------------------------------------------
+eclipse.buildId=4.19.1.202308011926
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-08 13:42:30.230
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-12-08 13:42:38.132
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-08 13:42:38.132
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-08 13:42:41.881
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\MSI\Desktop\spring-tool-suite-4-4.19.1.RELEASE-e4.28.0-win32.win32.x86_64.self-extracting\contents\sts-4.19.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.48.0.202308011907\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/MSI/Desktop/Projet_JEE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1702039361880
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 13:42:41.882
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-08 13:42:41.900
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8916
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-08 13:42:43.092
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\MSI'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 13:42:43.195
+!MESSAGE Boot project ADDED: recrutement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 13:42:43.196
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 13:42:43.199
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.jface 2 0 2023-12-08 13:45:19.158
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-08 13:45:19.158
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-08 13:45:33.273
+!MESSAGE Classpath changed for project: recrutement

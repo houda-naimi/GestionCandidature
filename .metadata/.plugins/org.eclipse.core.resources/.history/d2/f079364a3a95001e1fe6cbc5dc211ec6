@@ -1,0 +1,5 @@
+package com.recrutement.dao;
+
+public interface SocieteRepository {
+
+}

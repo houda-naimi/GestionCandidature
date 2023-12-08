@@ -1,0 +1,5 @@
+package com.recrutement.security;
+
+public class SecurityConfig {
+
+}

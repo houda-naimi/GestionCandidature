@@ -1,0 +1,5 @@
+package com.recrutement.interfaces;
+
+public interface ISociete {
+
+}
