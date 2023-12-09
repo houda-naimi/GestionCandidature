@@ -3,8 +3,9 @@ package com.recrutement.dao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.recrutement.entites.Societe;
+import com.recrutement.entites.Candidat;
+
 @Repository
-public interface SocieteRepository extends JpaRepository<Societe,Long>{
+public interface CandidatRepository extends JpaRepository<Candidat,Long>{
 
 }

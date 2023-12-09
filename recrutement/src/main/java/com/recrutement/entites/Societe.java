@@ -1,13 +1,20 @@
 package com.recrutement.entites;
 
 import java.io.Serializable;
+import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
+@Data @NoArgsConstructor @AllArgsConstructor
 public class Societe  implements Serializable{
   
 	@Id 
@@ -15,6 +22,12 @@ public class Societe  implements Serializable{
 	  private Long id;
 	  private String nom;
 	  private String adresse;
+	  private String tel;
+	  private String email;
+	
+	  @OneToMany(mappedBy = "societe", cascade = CascadeType.ALL)
+	    private List<Offre> offres;
+	  
 	public Long getId() {
 		return id;
 	}
@@ -33,10 +46,35 @@ public class Societe  implements Serializable{
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
 	}
-	public Societe(String nom, String adresse) {
+	
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	
+	
+	
+	public List<Offre> getOffres() {
+		return offres;
+	}
+	public void setOffres(List<Offre> offres) {
+		this.offres = offres;
+	}
+	public Societe(String nom, String adresse, String tel, String email) {
 		super();
 		this.nom = nom;
 		this.adresse = adresse;
+		this.tel = tel;
+		this.email = email;
 	}
 	public Societe() {
 		super();
