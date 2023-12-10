@@ -9,6 +9,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,9 +23,15 @@ public class Societe  implements Serializable{
 	@Id 
 	  @GeneratedValue(strategy = GenerationType.IDENTITY)
 	  private Long id;
+	@NotEmpty
 	  private String nom;
+	@NotEmpty
+	//@Min(5)
 	  private String adresse;
+	@NotEmpty
+	@Size(min =8 ,max=10 )
 	  private String tel;
+	@NotEmpty
 	  private String email;
 	
 	  @OneToMany(mappedBy = "societe", cascade = CascadeType.ALL)

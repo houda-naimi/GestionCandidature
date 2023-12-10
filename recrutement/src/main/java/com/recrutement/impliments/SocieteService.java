@@ -21,4 +21,25 @@ public class SocieteService implements ISociete {
 		// TODO Auto-generated method stub
 		return societeRep.findAll() ;
 	}
+
+
+	@Override
+	public Societe saveSociete(Societe s) {
+		
+		return societeRep.save(s);
+	}
+
+
+	@Override
+	public Societe findSocieteById(Long id) {
+		// TODO Auto-generated method stub
+		return societeRep.findById(id).get();
+	}
+
+
+	@Override
+	public void deleteById(Long id) {
+		societeRep.deleteById(id);
+		
+	}
 }
