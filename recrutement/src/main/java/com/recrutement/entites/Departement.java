@@ -21,6 +21,8 @@ public class Departement implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String designation;
+    private String description;
+    private String responsable;
     
     @OneToMany(mappedBy = "departement", cascade = CascadeType.ALL)
     private List<Offre> offres;
@@ -50,6 +52,24 @@ public class Departement implements Serializable {
 	}
 	public void setOffres(List<Offre> offres) {
 		this.offres = offres;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getResponsable() {
+		return responsable;
+	}
+	public void setResponsable(String responsable) {
+		this.responsable = responsable;
+	}
+	public Departement(String designation, String description, String responsable) {
+		super();
+		this.designation = designation;
+		this.description = description;
+		this.responsable = responsable;
 	}
 	
 	

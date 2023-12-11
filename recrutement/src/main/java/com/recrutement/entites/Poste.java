@@ -20,6 +20,9 @@ public class Poste implements Serializable {
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private Long id;
 	    private String titre;
+	    private String description;
+	    private String competencesRequises;
+	    
 	    
 	    @OneToMany(mappedBy = "poste", cascade = CascadeType.ALL)
 	    private List<Offre> offres;
@@ -56,6 +59,30 @@ public class Poste implements Serializable {
 
 		public void setOffres(List<Offre> offres) {
 			this.offres = offres;
+		}
+
+		public String getDescription() {
+			return description;
+		}
+
+		public void setDescription(String description) {
+			this.description = description;
+		}
+
+		public String getCompetencesRequises() {
+			return competencesRequises;
+		}
+
+		public void setCompetencesRequises(String competencesRequises) {
+			this.competencesRequises = competencesRequises;
+		}
+
+		public Poste(String titre, String description, String competencesRequises) {
+			super();
+			this.titre = titre;
+			this.description = description;
+			this.competencesRequises = competencesRequises;
+			
 		}
 	    
 	    

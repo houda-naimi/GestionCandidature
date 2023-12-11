@@ -22,9 +22,10 @@ public class Type implements Serializable {
 	 @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private Long id;
-
 	    @Enumerated(EnumType.STRING)
 	    private DesignationEnum designation;
+	    private String description;
+	    private Integer dureeContrat;
 	    
 	    @OneToMany(mappedBy = "type", cascade = CascadeType.ALL)
 	    private List<Offre> offres;
@@ -62,6 +63,32 @@ public class Type implements Serializable {
 		public void setOffres(List<Offre> offres) {
 			this.offres = offres;
 		}
+
+		public String getDescription() {
+			return description;
+		}
+
+		public void setDescription(String description) {
+			this.description = description;
+		}
+		
+
+		public Integer getDureeContrat() {
+			return dureeContrat;
+		}
+
+		public void setDureeContrat(Integer dureeContrat) {
+			this.dureeContrat = dureeContrat;
+		}
+
+		public Type(DesignationEnum designation, String description, Integer dureeContrat) {
+			super();
+			this.designation = designation;
+			this.description = description;
+			this.dureeContrat = dureeContrat;
+		}
+
+		
 		
 	    
 	    
