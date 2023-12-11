@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html
+     xmlns:th="http://www.thymeleaf.org"
+     xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+     layout:decorate="template1.html"
+     
+     >
+<head>
+    <title>Nouveau poste</title>
+  
+</head>
+<body>
+	 <div class="container-xxl flex-grow-1 container-p-y mt-3"> <!-- Ajoutez la classe mt-3 ici -->
+	<div id = "content" class = "content layout-list" layout:fragment="content">
+		<div class="p-3">
+	<div class ="row mt-3">
+		<div class="col-md-8 offset-1"> 
+		<div class="card">
+			<div class="card-header">Ajouter un nouveau poste </div>
+			<div class="card-body"> 
+				<form th:action="@{/savePoste}" method="post">
+					<div class="mb-2">
+					     <label for="exampleInputEmail1" class="form-label">Id : </label> 
+					     <label th:text="${poste.id}"></label>
+                         <input type="hidden" name="id" class="form-control" th:value="${poste.id}" >
+                  
+                    </div>
+					<div class="mb-2">
+					     <label for="exampleInputEmail1" class="form-label">Titre : </label>
+                         <input type="text" name="titre" class="form-control" th:value="${poste.titre}" >
+                           <div  class="form-text text-danger" th:errors="${poste.titre}"></div>
+                         
+                    </div>
+                    
+                     
+					<button type="submit" class="btn btn-success">modifier</button>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+		
+	</div>
+	</div>
+   </div>
+</body>
+</html>

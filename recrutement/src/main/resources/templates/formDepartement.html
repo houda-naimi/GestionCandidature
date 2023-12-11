@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html
+     xmlns:th="http://www.thymeleaf.org"
+     xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+     layout:decorate="template1.html"
+     
+     >
+<head>
+    <title>Nouveau Departement</title>
+  
+</head>
+<body>
+	 <div class="container-xxl flex-grow-1 container-p-y mt-3"> <!-- Ajoutez la classe mt-3 ici -->
+	<div id = "content" class = "content layout-list" layout:fragment="content">
+		<div class="p-3">
+	<div class ="row mt-3">
+		<div class="col-md-8 offset-1"> 
+		<div class="card">
+			<div class="card-header">Ajouter un nouveau Departement</div>
+			<div class="card-body"> 
+				<form th:action="@{/saveDepartement}" method="post">
+					<div class="mb-2">
+					     <label for="exampleInputEmail1" class="form-label">Designation : </label>
+                         <input type="text" name="designation" class="form-control" th:value="${departement.designation}" >
+                           <div  class="form-text text-danger" th:errors="${departement.designation}"></div>
+                         
+                    </div>
+                    
+                     
+              
+                    
+					<button type="submit" class="btn btn-success">Ajouter</button>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+		
+	</div>
+	</div>
+   </div>
+</body>
+</html>
