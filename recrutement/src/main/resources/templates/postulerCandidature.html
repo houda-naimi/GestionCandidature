@@ -18,40 +18,41 @@
 		<div class="card">
 			<div class="card-header">Postuler une candidature</div>
 			<div class="card-body"> 
-				<form >
+				<form th:action="@{/saveCandidature/{id}(id=${id})}" method="post" enctype="multipart/form-data" >
 					<div class="row mb-2">
-    <div class="col-md-6">
-        <label for="exampleInputEmail1" class="form-label">Nom : </label>
-        <input type="text" name="nom" class="form-control">
-        <div class="form-text text-danger"></div>
-    </div>
-    <div class="col-md-6">
-        <label for="exampleInputEmail1" class="form-label">Prénom : </label>
-        <input type="text" name="prenom" class="form-control">
-        <div class="form-text text-danger"></div>
-    </div>
-</div>
+                      <div class="col-md-6">
+                         <label for="exampleInputEmail1" class="form-label">Nom : </label>
+                         <input type="text" name="nom" class="form-control" th:value="${candidat.nom}">
+                                <div class="form-text text-danger" th:errors="${candidat.nom}"></div>
+                      </div>
+                      <div class="col-md-6">
+   			 	         <label for="exampleInputEmail1" class="form-label">Prénom : </label>
+                         <input type="text" name="prenom" class="form-control" th:value="${candidat.prenom}">
+  				    		      <div class="form-text text-danger" th:errors="${candidat.prenom}"></div>
+ 					   </div>
+					</div>
                     <div class="mb-2">
 					     <label for="exampleInputEmail1" class="form-label">Adresse : </label>
-                         <input type="text" name="adresse" class="form-control" >
-                            <div  class="form-text text-danger"></div>
+                         <input type="text" name="adresse" class="form-control" th:value="${candidat.adresse}">
+                            <div  class="form-text text-danger" th:errors="${candidat.adresse}"></div>
                      </div>
                      <div class="mb-2">
 					     <label for="exampleInputEmail1" class="form-label">Adresse Email :</label>
                          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        >
-                            <div  class="form-text text-danger" ></div>
+                         th:value="${candidat.email}">
+                            <div  class="form-text text-danger" th:errors="${candidat.email}"></div>
                      </div>
               
                      <div class="mb-2">
 					     <label for="exampleInputEmail1" class="form-label">Numéro de téléphone : </label>
-                         <input type="text" name="tel" class="form-control" >
-                            <div  class="form-text text-danger" ></div>
+                         <input type="text" name="tel" class="form-control" th:value="${candidat.tel}">
+                           
                       </div>
                       
                       <div class="mb-2">
 						    <label for="exampleInputEmail1" class="form-label">Sélectionner votre CV: </label>
-                            <input type="file" class="form-control" id="customFileLang" lang="fr">
+                            <input type="file" class="form-control" id="customFileLang" lang="fr" th:value="${candidat.cv}">
+                             
                             
                       </div>
 					<button type="submit" class="btn btn-success">Envoyer</button>

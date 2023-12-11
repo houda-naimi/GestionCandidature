@@ -1,6 +1,7 @@
 package com.recrutement.entites;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -51,7 +52,7 @@ public class Offre implements Serializable {
     private Type type;
     
     @ManyToMany(mappedBy = "offres", cascade = CascadeType.ALL)
-    private List<Candidat> candidats;
+    private List<Candidat> candidats = new ArrayList<>();
 
 	public Offre() {
 		super();

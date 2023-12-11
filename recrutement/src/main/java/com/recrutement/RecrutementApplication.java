@@ -32,7 +32,7 @@ public class RecrutementApplication {
 					User.withUsername("user2").password(passwordEncoder.encode("1234")).roles("USER").build()
 	                );
 			jdbcUserDetailManager.createUser(
-					User.withUsername("admin").password(passwordEncoder.encode("1234")).roles("USER","ADMIN").build()
+					User.withUsername("admin").password(passwordEncoder.encode("1234")).roles("ADMIN").build()
 	                );
 			
 		};

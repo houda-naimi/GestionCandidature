@@ -2,6 +2,7 @@ package com.recrutement.controller;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -11,7 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.recrutement.entites.Candidature;
 import com.recrutement.entites.Offre;
 import com.recrutement.entites.Societe;
 import com.recrutement.interfaces.IOffre;
@@ -70,10 +70,4 @@ public class OffreController {
 			
 		}*/
 		
-		@GetMapping("/postulerCandidature")
-		public String PostulerCandidature(Model model) {
-			model.addAttribute("candidature",new Candidature());
-			return "postulerCandidature";
-		
 		}
-}
