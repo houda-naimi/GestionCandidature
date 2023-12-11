@@ -5,13 +5,17 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.recrutement.dao.OffreRepository;
 import com.recrutement.dao.SocieteRepository;
+import com.recrutement.entites.Offre;
 import com.recrutement.entites.Societe;
+import com.recrutement.interfaces.IOffre;
 import com.recrutement.interfaces.ISociete;
 
 @Service
 public class SocieteService implements ISociete {
 
+	
 	@Autowired
 	SocieteRepository societeRep;
 	

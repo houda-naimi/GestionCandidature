@@ -29,4 +29,15 @@
     <fullyQualifiedTypeName name="org.springframework.security.provisioning.JdbcUserDetailsManager"/>
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
     <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Size"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Min"/>
+    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="com.recrutement.dao.OffreRepository"/>
+    <fullyQualifiedTypeName name="com.recrutement.interfaces.IOffre"/>
+    <fullyQualifiedTypeName name="com.recrutement.entites.Offre"/>
+    <fullyQualifiedTypeName name="com.recrutement.entites.Candidature"/>
 </qualifiedTypeNameHistroy>
