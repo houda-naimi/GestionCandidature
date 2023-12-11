@@ -25,6 +25,18 @@
                            <div  class="form-text text-danger" th:errors="${type.designation}"></div>
                          
                     </div>
+                    <div class="mb-2">
+					     <label for="exampleInputEmail1" class="form-label">Description : </label>
+                         <input type="text" name="description" class="form-control" th:value="${type.description}" >
+                           <div  class="form-text text-danger" th:errors="${type.description}"></div>
+                         
+                    </div>
+                    <div class="mb-2">
+					     <label for="exampleInputEmail1" class="form-label">Durée du Contrat : </label>
+                         <input type="text" name="dureeContrat" class="form-control" th:value="${type.dureeContrat}" >
+                           <div  class="form-text text-danger" th:errors="${type.dureeContrat}"></div>
+                         
+                    </div>
                     
                      
               

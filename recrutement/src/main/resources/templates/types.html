@@ -36,6 +36,8 @@
             <tr>
                 <th>ID</th>
                 <th>Designation</th>
+                <th>Description</th>
+                <th>Duree Contrat</th>
                 
                  <th th:if="${#authorization.expression('hasRole(''ADMIN'')')}">Action</th>
             </tr>
@@ -45,6 +47,8 @@
 				<th scope="row" th:text="${s.id}"></th>
               
                 <td th:text="${s.designation}"></td>
+                <td th:text="${s.description}"></td>
+                <td th:text="${s.dureeContrat}"></td>
                 
                 <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
 					<a onclick="javascript :return confirm('Etes vous sure?' )"

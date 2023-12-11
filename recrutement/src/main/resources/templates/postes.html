@@ -36,6 +36,8 @@
             <tr>
                 <th>ID</th>
                 <th>Titre</th>
+                <th>description</th>
+                <th>competencesRequises</th>
                 
                  <th th:if="${#authorization.expression('hasRole(''ADMIN'')')}">Action</th>
             </tr>
@@ -45,6 +47,9 @@
 				<th scope="row" th:text="${s.id}"></th>
               
                 <td th:text="${s.titre}"></td>
+                <td th:text="${s.description}"></td>
+                <td th:text="${s.competencesRequises}"></td>
+                
                 <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
 					<a onclick="javascript :return confirm('Etes vous sure?' )"
 					th:href="@{deletePoste(id=${s.id})}" class="btn btn-danger">
