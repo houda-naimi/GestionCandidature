@@ -1,6 +1,7 @@
 package com.recrutement.entites;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -12,6 +13,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -23,6 +25,7 @@ public class Candidat implements Serializable {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+	@NotEmpty
 	private String nom;
 	private String prenom;
 	private String adresse;
@@ -31,11 +34,11 @@ public class Candidat implements Serializable {
 	private String cv;
 
    
-	@ManyToMany(cascade = CascadeType.ALL)
+	@ManyToMany( cascade = CascadeType.ALL)
 	@JoinTable(name = "candidature",
 	           joinColumns = @JoinColumn(name = "candidat_id"),
 	           inverseJoinColumns = @JoinColumn(name = "offre_id"))
-	private List<Offre> offres;
+	private List<Offre> offres = new ArrayList<>();
 
 
 	public Candidat() {
