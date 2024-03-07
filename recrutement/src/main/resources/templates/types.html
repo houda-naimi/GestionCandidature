@@ -48,7 +48,7 @@
               
                 <td th:text="${s.designation}"></td>
                 <td th:text="${s.description}"></td>
-                <td th:text="${s.dureeContrat}"></td>
+                <td th:text="${s.dureeContrat + ' mois'}"> </td>
                 
                 <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
 					<a onclick="javascript :return confirm('Etes vous sure?' )"

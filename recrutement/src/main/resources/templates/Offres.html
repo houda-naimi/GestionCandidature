@@ -20,7 +20,7 @@
               <div class="align-items-right" th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
                 <div class=" float-end w-50">
                      <div class="d-inline-block float-end text-white mb-5">
-                       <a  th:href="@{/formSociete}" type="button" class="btn btn-primary" >
+                       <a  th:href="@{/formOffre}" type="button" class="btn btn-primary" >
                         Ajouter
                       </a>
                     </div>
@@ -45,15 +45,16 @@
                 <i class="bx bx-dots-vertical-rounded"></i>
               </button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" >
-                  <i class="bx bx-card me-1"></i> Detail</a>
-                <button class="dropdown-item"  >
-                  <i class='bx bx-purchase-tag-alt me-1'></i>Tags</button>
-                <button type="button"  class="dropdown-item"
-                  routerLinkActive="router-link-active">
+                <a class="dropdown-item"  th:href="@{/candidatures/{offreId}(offreId=${offre.id})}">
+                  <i class="bx bx-card me-1"></i>Liste candidatures</a>
+                <a type="button"  class="dropdown-item"
+                  th:href="@{/editOffre(id=${offre.id})}">
                   <i class="bx bx-edit-alt me-1"></i> modifier
-                </button>
-                <button class="dropdown-item" ><i class='bx bx-archive-in me-1' ></i> archiver</button>
+                </a>
+                <a th:href="@{/deleteOffre/{id}(id=${offre.id})}" class="dropdown-item" 
+				   onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette offre ?')">
+				    <i class='bx bx-archive-in me-1'></i> Supprimer
+				</a>
               </div>
             </div>
           </div>
@@ -71,7 +72,7 @@
       <img class="img-fluid" th:src="@{/images/offre2.jpg}" alt="Card image cap" style="max-width: 100%; height: auto;"/>
       <div class="card-body">
 		
-        <h6 class="card-text" th:text="${offre.societe.nom}"></h6 >
+        <h3 class="card-text" th:text="${offre.societe.nom}" style="color: seagreen;"></h3 >
         <hr>
         <div class="row">
           <div class="col">

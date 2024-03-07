@@ -145,7 +145,15 @@ public class Candidat implements Serializable {
 	
 	
 	
-	
+	 @Override
+	    public String toString() {
+	        return "Candidat{" +
+	                "id=" + id +
+	                ", nom='" + nom + '\'' +
+	                ", prenom='" + prenom + '\'' +
+	              
+	                '}';
+	    }
 
 
 }

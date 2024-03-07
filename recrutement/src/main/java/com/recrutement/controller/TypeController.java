@@ -24,7 +24,7 @@ public class TypeController {
 	
 
 		@GetMapping("/types")
-		@PreAuthorize("hasAnyRole('ADMIN','USER')")
+		
 	    public String getListType(Model model) {
 			 List<Type> types = typeService.getListType();
 		       model.addAttribute("types", types);

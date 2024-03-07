@@ -31,11 +31,7 @@ public class SocieteController {
 	        return "societes";
 	    }
 		
-		@GetMapping("/")
-	    public String home() {
-			
-	        return "redirect:/societes";
-	    }
+		
 		
 		@GetMapping("/formSociete")
 		public String formPatient(Model model) {

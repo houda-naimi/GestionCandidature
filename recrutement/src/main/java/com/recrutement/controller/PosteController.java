@@ -24,7 +24,7 @@ public class PosteController {
 	
 
 		@GetMapping("/postes")
-		@PreAuthorize("hasAnyRole('ADMIN','USER')")
+		
 	    public String getListSociete(Model model) {
 			 List<Poste> postes = posteService.getListPoste();
 		       model.addAttribute("postes", postes);

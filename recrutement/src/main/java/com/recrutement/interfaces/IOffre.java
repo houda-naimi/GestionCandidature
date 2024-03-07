@@ -11,5 +11,6 @@ public interface IOffre {
 	Offre saveOffre(Offre s);
 	Offre findOffreById(Long id);
 	void deleteById(Long id);
+	 List<Offre> findOffreByTitre(String titre);
 	
 }

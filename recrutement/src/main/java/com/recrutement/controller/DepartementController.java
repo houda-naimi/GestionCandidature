@@ -24,7 +24,7 @@ public class DepartementController {
 	
 
 		@GetMapping("/departements")
-		@PreAuthorize("hasAnyRole('ADMIN','USER')")
+		
 	    public String getListDepartement(Model model) {
 			 List<Departement> departements = departementService.getListDepartement();
 		       model.addAttribute("departements", departements);

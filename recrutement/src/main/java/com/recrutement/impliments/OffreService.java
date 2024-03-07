@@ -45,5 +45,12 @@ public class OffreService implements IOffre {
 		// TODO Auto-generated method stub
 		return offreRep.findById(id).get();
 	}
+
+
+	@Override
+	public List<Offre> findOffreByTitre(String titre) {
+		// TODO Auto-generated method stub
+		return offreRep.findOffreByTitle(titre);
+	}
 	
 }

@@ -33,23 +33,24 @@ public class Offre implements Serializable {
     private Long id;
     private String titre;
     private String description;
+    private String image;
 
     @ManyToOne
     @JoinColumn(name = "societe_id")
     //@JoinColumn(name = "societe_id", referencedColumnName = "id")
-    private Societe societe;
+    private Societe societe ;
 
     @ManyToOne
     @JoinColumn(name = "poste_id")
-    private Poste poste;
+    private Poste poste ;
 
     @ManyToOne
     @JoinColumn(name = "departement_id")
-    private Departement departement;
+    private Departement departement ;
 
     @ManyToOne
     @JoinColumn(name = "type_id")
-    private Type type;
+    private Type type ;
     
     @ManyToMany(mappedBy = "offres", cascade = CascadeType.ALL)
     private List<Candidat> candidats = new ArrayList<>();
@@ -59,7 +60,7 @@ public class Offre implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Offre(String titre, String description, Societe societe, Poste poste, Departement departement, Type type) {
+	public Offre(String titre, String description, Societe societe, Poste poste, Departement departement, Type type , String image) {
 		super();
 		this.titre = titre;
 		this.description = description;
@@ -67,6 +68,15 @@ public class Offre implements Serializable {
 		this.poste = poste;
 		this.departement = departement;
 		this.type = type;
+		this.image = image;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
 	}
 
 	public Long getId() {
@@ -133,7 +143,15 @@ public class Offre implements Serializable {
 		this.candidats = candidats;
 	}
     
-    
+	 @Override
+	    public String toString() {
+	        return "Offre{" +
+	                "id=" + id +
+	                ", titre='" + titre + '\'' +
+	                ", description='" + description + '\'' +
+	                
+	                '}';
+	    }
     
 
   
